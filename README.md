@@ -7,3 +7,8 @@ Prefilled location list
 
 ![image](https://user-images.githubusercontent.com/13537704/121806324-fd1cf600-cc6c-11eb-9a58-6f2aecb49365.png)
 
+Language changing feature
+
+![image](https://user-images.githubusercontent.com/13537704/121806764-d790ec00-cc6e-11eb-8070-43923d80d9aa.png)
+
+
