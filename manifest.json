@@ -6,13 +6,13 @@
   "version": "2.5.1",
   "author": "Ankur",
   "browser_action": {
-   "default_icon": "sticky.png",
+   "default_icon": "weather_icon.png",
    "default_popup": "popup.html"
   },
   "icons": {
-    "16": "sticky.png",
-    "48": "sticky.png",
-    "128": "sticky.png"
+    "16": "weather_icon.png",
+    "48": "weather_icon.png",
+    "128": "weather_icon.png"
   },
   "permissions": [
       "activeTab",
