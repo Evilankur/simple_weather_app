@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple Weather App By Ankur",
+  "description": "Simple Weather App for chrome browser",
+  "version": "2.5.1",
+  "author": "Ankur",
+  "browser_action": {
+   "default_icon": "sticky.png",
+   "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "sticky.png",
+    "48": "sticky.png",
+    "128": "sticky.png"
+  },
+  "permissions": [
+      "activeTab",
+      "contextMenus",
+      "storage"
+    ],
+  "persistent": false
+}

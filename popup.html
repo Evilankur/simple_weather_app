@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div class="card">
+		<p>Language <div><input type="radio" name="select_lang" value="en" checked>EN<input type="radio" name="select_lang" value="hi">HI</div></p>
+      <h3>Select Location Name : </h3>
+      <select id="select_weather" style="width:200px;height:30px;padding:5px;border:2px solid;">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Gorakhpur">Gorakhpur</option>
+        <option value="Varanasi">Varanasi</option>
+        <option value="Vadodara">Vadodara</option>
+        <option value="Ahemdabad">Ahemdabad</option>
+        <option value="Vapi">Vapi</option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Gangtok">Gangtok</option>
+        <option value="Kohima">Kohima</option>
+        <option value="Imphal">Imphal</option>
+        <option value="Nashik">Nashik</option>
+        <option value="Ujjain">Ujjain</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bengaluru">Bengaluru</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Panji">Panji</option>
+        <option value="Bhopal">Bhopal</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Cherrapunjee">Cherrapunjee</option>
+        <option value="Mawsynram">Mawsynram</option>
+        <option value="Kota">Kota</option>
+        <option value="Haridwar">Haridwar</option>
+        <option value="Leh">Leh</option>
+        <option value="Ladakh">Ladakh</option>
+        <option value="Jammu">Jammu</option>
+        <option value="Kanyakumari">Kanyakumari</option>
+        <option value="Kochi">Kochi</option>
+      </select>
+      <h2><i class="fa fa-map-marker"></i> <span id="location"></span></h2>
+      <label id="weather"></label>
+      <h4><span id="tempreature"></span><sup>o</sup>C</h4>
+      <img id="icon" src="">
+      <button id="refresh_wheather" class="refresh"><i class="fa fa-refresh"></i></button>
+      <h5>- Weather App By Ankur</h5>
+  </div>
+</div>
+</body>
+<script src="js/popup.js"></script>
+</html>
